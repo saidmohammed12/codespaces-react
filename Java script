@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA San Andreas 6 في الجزائر</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #444;
+        }
+        ul {
+            text-align: left;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+        .dark-mode header {
+            background-color: #222;
+        }
+        .dark-mode .section {
+            background-color: #444;
+            color: #fff;
+        }
+        .dark-mode footer {
+            background-color: #222;
+        }
+        .switch {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GTA San Andreas 6 في الجزائر</h1>
+    </header>
+    <div class="content">
+        <button class="switch" onclick="toggleDarkMode()">تبديل الوضع الليلي/النهاري</button>
+        <div class="section">
+            <h2>حول اللعبة</h2>
+            <p>لعبة GTA San Andreas 6 هي لعبة عالم مفتوح تتيح للاعبين استكشاف مدينة واسعة في الجزائر. يمكنك اللعب كشخص عادي أو شرطي، وأيضًا تعيين أشخاص كلصوص لتحقيق مهام معينة.</p>
+        </div>
+        <div class="section">
+            <h2>كيفية اللعب</h2>
+            <p>تتيح لك اللعبة خيارات متعددة للعب:</p>
+            <ul>
+                <li><strong>كشخص عادي:</strong> استكشاف المدينة، تنفيذ المهام الجانبية، والتفاعل مع الشخصيات الأخرى.</li>
+                <li><strong>كشرطي:</strong> محاربة الجريمة، القبض على المجرمين، والحفاظ على الأمن في المدينة.</li>
+                <li><strong>تعيين أشخاص كلصوص:</strong> تشكيل عصابة، التخطيط للسرقات، وتنفيذ المهام الإجرامية.</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+    <script>
+        window.onload = function() {
+            alert('مرحبًا بك في صفحة GTA San Andreas 6 في الجزائر!');
+        };
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
+java
